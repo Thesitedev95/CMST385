@@ -1,0 +1,216 @@
+/* Global Styling*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  position: relative;
+}
+
+.container {
+  padding: 3em 4em;
+}
+
+/* Header Styling */
+#header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 3em 4em;
+}
+
+#header-nav ul {
+  list-style: none;
+}
+
+#header-nav li {
+  display: inline;
+}
+
+#header-nav a:link {
+  margin-right: 2em;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+#header-nav a:visited {
+  color: whitesmoke;
+}
+
+#header-nav a:hover {
+  color: gray;
+  padding-bottom: 3px;
+  border-bottom: 2px solid gray;
+}
+
+#banner {
+  background: url("../imgs/john_legend.jpg") no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+/* Artist Info Styling */
+.artist-intro {
+  color: whitesmoke;
+  position: absolute;
+  top: 16em;
+  left: 0;
+  line-height: 1.5;
+  padding: 0 4em;
+}
+
+#artist-name {
+  font-size: 5rem;
+}
+
+#artist-desc {
+  margin-bottom: 4em;
+}
+
+#learn-more-btn {
+  text-decoration: none;
+  background: whitesmoke;
+  padding: .6em 1em;
+  color: black;
+  border-radius: 20px;
+}
+
+/* Artist Bio */
+#artist-bio {
+  margin-bottom: 3em;
+}
+
+#artist-bio > p {
+  margin-bottom: 1em;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+/* Artist Trivia*/
+#artist-trivia {
+  margin-bottom: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trivia-table table {
+  border: 2px solid black;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: .25em;
+}
+
+th {
+  background: black;
+  color: whitesmoke;
+}
+
+.trivia-table tr:nth-of-type(2n + 1){
+  background: lightblue;
+}
+
+tr > td:first-of-type {
+  font-weight: bold;
+}
+
+.family-photo {
+  width: 40%;
+}
+
+.family-photo img {
+  width: 100%;
+}
+
+/*Page Banner Styling*/
+.page-banner {
+  width: 100%;
+  height: 75vh;
+  background: url("../imgs/microphone.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.page-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.col h3 {
+  margin-bottom: .25em;
+  font-size: 1.5rem;
+}
+
+.col h5 {
+  font-size: 1.1rem;
+  margin-bottom: .25em;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-bottom: 5em;
+}
+
+.col img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1em;
+}
+
+.album-info {
+  margin-right: 4em;
+}
+
+.song-list {
+  margin-left: 1.25em;
+  line-height: 1.5;
+}
+
+/* Footer Styling*/
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background: #232B36;
+}
+
+
