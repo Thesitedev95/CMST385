@@ -20,6 +20,10 @@ body {
   padding: 3em 4em;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 /* Header Styling */
 #header-nav {
   position: absolute;
@@ -50,7 +54,7 @@ body {
 }
 
 #header-nav a:hover {
-  color: gray;
+  color: white;
   padding-bottom: 3px;
   border-bottom: 2px solid gray;
 }
@@ -61,6 +65,21 @@ body {
   height: 100vh;
   position: relative;
   margin-bottom: 2em;
+}
+
+.banner-cite {
+  margin-top: 190px;
+  font-size: .75rem;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+.banner-cite a {
+  color: whitesmoke;
+}
+
+.banner-cite a:visited {
+  color: whitesmoke;
 }
 
 /* Artist Info Styling */
@@ -100,7 +119,6 @@ body {
 
 .section-title {
   text-align: center;
-  font-size: 1.5rem;
   margin-bottom: 1em;
 }
 
@@ -136,17 +154,33 @@ tr > td:first-of-type {
 
 .family-photo {
   width: 40%;
+  position: relative;
 }
 
 .family-photo img {
   width: 100%;
 }
 
+.image-cite {
+  font-size: .75rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.image-cite a {
+  color: black;
+}
+
+.image-cite a:visited {
+  color: black;
+}
+
 /*Page Banner Styling*/
 .page-banner {
   width: 100%;
   height: 75vh;
-  background: url("../imgs/microphone.jpg") no-repeat center center;
+  /* 
+  background: url("../imgs/microphone.jpg") no-repeat center center; */
   background-size: cover;
   position: relative;
 }
@@ -161,6 +195,28 @@ tr > td:first-of-type {
   text-shadow: 2px 2px 2px black;
 }
 
+.page-banner-cite {
+  font-size: .75rem;
+  font-style: italic;
+  color: whitesmoke;
+  padding-left: 5.4em;
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+}
+
+.page-banner-cite a {
+  color: whitesmoke;
+}
+
+.page-banner-cite a:visited {
+  color: whitesmoke;
+}
+.page-banner img {
+  width: 100%;
+  height: 75vh;
+}
+
 /* Flex Container */
 .flex-container {
   display: flex;
@@ -172,7 +228,6 @@ tr > td:first-of-type {
 
 .col h3 {
   margin-bottom: .25em;
-  font-size: 1.5rem;
 }
 
 .col h5 {
